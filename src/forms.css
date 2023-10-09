@@ -1,0 +1,39 @@
+.center{
+    background-image: url(/public/pinkbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.auth{
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffdbed;
+    border: 2px solid #f578b9;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .auth form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto 10px auto;
+  }
+  
+  .auth_success{
+    padding: 10px 0;
+    background-color: #cfffe4;
+    margin-bottom: 20px;
+  }
+  
+  .auth_error{
+    padding: 10px 0;
+    background-color: #f2aec4;
+    margin-bottom: 20px;
+  }
+  
+  .auth form > input, button{
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+  }
